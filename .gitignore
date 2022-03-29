@@ -3,3 +3,4 @@
 
 # Except for
 !init.el
+!.gitignore
