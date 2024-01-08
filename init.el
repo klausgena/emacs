@@ -1,5 +1,5 @@
 ;; ====
-;; MELPA
+;; Melpa
 ;; ====
 
 (require 'package)
@@ -52,3 +52,9 @@
 ;; Enable autopep
 (require 'py-autopep8)
 (add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
+
+;; Enable ido-mode
+(setq ido-enable-flex-matching t)
+(setq ido-everywhere t)
+(ido-mode 1)
+(setq ido-file-extensions-order '(".org" ".txt" ".py" ".js" ".html" ".md")')
